@@ -1,3 +1,4 @@
+clearhands 'both'
 if not @findobject 'Wep1' and not @inrange 'Wep1' 2
   promptalias 'Wep1'
 endif
