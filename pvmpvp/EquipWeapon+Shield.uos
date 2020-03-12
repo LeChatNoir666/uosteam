@@ -10,10 +10,10 @@ if not @findlayer 'self' 1
   endif
 endif
 if not @findlayer 'self' 2
-  equipitem 'sheild' 2
+  equipitem 'shield' 2
   pause 100
   if not @findlayer 'self' 2
-    promptalias 'sheild'
-    equipitem 'sheild' 2
+    promptalias 'shield'
+    equipitem 'shield' 2
   endif
 endif
